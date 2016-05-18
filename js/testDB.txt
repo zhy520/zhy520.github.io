@@ -1,0 +1,5 @@
+var myDB={
+					name:'zhy',
+					version:1,
+					db:null
+				};

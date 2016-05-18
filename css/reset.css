@@ -1,0 +1,28 @@
+body,h1,h2,h3,h4,h5,h6,p,blockquote,pre,dl,dd,fieldset,form,input,select,textarea,figure{margin:0;}ul,ol,menu{list-style:none;margin:0;padding:0;}body{font-size:75%;line-height:1.5;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';}table{border-collapse:collapse;border-spacing:0;}fieldset,a img,iframe{border:0 none;}address,em,i{font-style:normal;}abbr,acronym{font-variant:normal;}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0;}:active{outline:0 none;}input,select,button{vertical-align:middle;}input,select,button,textarea{font-size:100%;font-family:inherit;}button{*overflow:visible;}
+
+*{padding: 0; margin: 0;}
+body,input{font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;}
+a,label, :focus {outline: 0 none;}
+a,img {border: 0 none;}
+a{text-decoration: none;}
+a:hover{text-decoration: underline;}
+em,i{font-style: normal;}
+ul,li,ol,dl{list-style: none;}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+button,input,select,textarea{margin:0;font-size:100%;vertical-align:middle; font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;}
+button,input.btn{*overflow:visible;line-height:normal;}
+button::-moz-focus-inner,input::-moz-focus-inner{padding:0;border:0;}
+button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;}
+input[type="search"]{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;-webkit-appearance:textfield;}
+input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none;}
+.clearfix:after{display:block;content:"\20";height:0;clear:both;overflow:hidden;visibility:hidden;}
+.clearfix{*zoom:1;}
+html,body{ font-size: 12px; color: #604136;}
+
+html{height: 100%;}/* 针对ie6弹框背景出来了高度不够加的 */
+body{height: 100%;}/* 针对ie6弹框背景出来了高度不够加的 */
+body{*position:relative;} /* 针对ie6body里面有position的bug。*/
+

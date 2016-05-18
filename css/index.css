@@ -1,0 +1,277 @@
+/*header*/
+.header_wrap{
+	margin:0 auto;
+	padding: 0 20px;
+	height:78px;
+	border-bottom:2px solid #e8e3dd;
+}
+.header{
+	margin:0 auto;
+	max-width: 1200px;
+	min-width: 1200px;
+	height:100%;
+}
+.nav-area{
+	float: left;
+	width:100%;
+}
+.logo{
+	margin:0 30px 0 -10px;
+	display: block;
+	float: left;
+}
+.nav-four{
+	float: left;
+	height:100%;
+}
+.area-check{
+	width:60px;
+	height:20px;
+	background: url(../img/area_bg.jpg) no-repeat;
+	cursor: pointer;
+	color:#fff;
+	line-height: 20px;
+	text-indent: 10px;
+	margin-top:16px;
+	position: relative;
+}
+.area-all{
+	display: none;
+	top:25px;
+	position: absolute;
+	z-index: 999;
+	width:252px;
+	height:auto;
+	border:1px solid #a7846a;
+	background: #fff;
+	box-shadow: 0 0 5px #a7846a;
+}
+.area-all .area-check-tip{
+	color: #8e6a55;
+    padding: 10px 10px 6px 15px;
+}
+.area-all ul{
+    overflow: hidden;
+    padding: 0 6px 6px 6px;
+}
+.area-all ul li{
+	text-indent: 0;
+	float:left;
+}
+.area-all ul li a{
+	display: block;
+	width:60px;
+	height:24px;
+	line-height: 24px;
+	cursor: default;
+	color:#8e6a55;
+	text-align: center;
+}
+.area-all ul li a:hover{
+	background: #ebe1df;
+}
+
+
+.nav-four .nav-ul{
+	margin-top: 10px;
+}
+.nav-four .nav-ul li{
+	float: left;
+	background: url(../img/menubg.jpg) no-repeat right 5px;
+	line-height: 20px;
+	text-align: center;
+}
+.nav-four .nav-ul li a{
+	padding: 0 16px;
+	display: inline-block;
+	color:#8e6a55;
+}
+.nav-four .nav-ul .li_left a{
+	padding-left:0 ;
+}
+.header ul .last{
+	background:none;
+}
+.nav-four ul li a:hover{
+    color: #432818;
+    text-decoration: none;
+}
+.login-mes{
+	float: right;
+}
+.head-nav{
+	padding-top: 46px;
+}
+.login-mes li{
+	float: left;
+	background: url(../img/menubg.jpg) no-repeat right 5px;
+	line-height: 20px;
+	text-align: center;
+}
+.login-mes li a{
+	padding:0 10px;
+	color:#b59e90;
+}
+.login-mes li a:hover{
+	color: #432818;
+    text-decoration: none;
+}
+.login-mes ul .last a{
+	padding-left: 26px;
+}
+.shop-car{
+	height:20px;
+	display: inline-block;
+	background: url(../img/c_shopcar.png) 0 0 no-repeat;
+	margin-left: 10px;
+	overflow: hidden;
+}
+
+
+/*banner*/
+.banner{
+	overflow: hidden;
+	height:500px;
+	width:100%;
+	margin:0 auto;
+	position: relative;
+}
+.banner .ss{
+	position: absolute;
+	width: 100%;
+}
+.banner .ss a{
+	position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -800px;
+}
+
+/*goods*/
+.goods{
+	width:auto;
+	text-align: center;
+	margin:0 auto;
+	padding: 10px 0;
+	overflow: hidden;
+}
+.align-center-index{
+    display: inline-block;
+    overflow: hidden;
+}
+.cake{
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 300px;
+    overflow: Hidden;
+    display: inline-block;
+}
+.cake a{
+	text-decoration: none;
+}
+.cake1{
+	cursor: pointer;
+}
+.cake span{
+	width:100%;
+	padding: 4px 0 0;
+	display: block;
+	position: absolute;
+	bottom: -50px;
+	-webkit-transition: bottom .5s;
+	left:0;
+	height:46px;
+	background: url(../img/mb-bg.png) repeat-x 0 0; 
+	color:#fff;
+	font-size: 14px;
+	line-height: 21px;
+	text-align: center;
+}
+.cake a:hover{
+    background: #fff;
+    text-decoration: none;
+}
+.cake1 a:hover span{
+	bottom: 0;
+}
+
+
+/*footer-area*/
+.footer-area{
+	border-top: 1px solid #491903;
+	color:#8E6A55;
+	padding: 10px 20px;
+	line-height: 1.5;
+	margin-top:20px;
+	margin-bottom: 15px;
+}
+.footer-area:after{
+	display: block;
+    content: "\20";
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+.copyright{
+	color:#c5b4a8;
+}
+.fl-r{
+	float: right;
+}
+.foo-link a {
+    padding: 0 6px;
+    float: left;
+    height: 16px;
+    color:#8e6a55;
+}
+.foo-link .foo-line {
+    float: left;
+}
+
+.footer-inner{
+	max-width:1200px;
+	margin:0 auto;
+	min-width: 960px;
+}
+.foo-mes{
+	float: left;
+}
+.weibo,.weixin{
+    vertical-align: top;
+    display: inline-block;
+    margin-top: -6px;
+    cursor: pointer;
+}
+.color1{
+	color:#8e6a55;
+}
+.weixin{
+	position: relative;
+}
+.third-enter-dia{
+	position: absolute;
+	display: none;
+	z-index: 10;
+	bottom: 40px;
+	left:-54px;
+	background: url(../img/touming.png) repeat;
+	padding: 4px;
+	cursor: pointer;
+}
+.third-enter-dia-inner{
+    display: block;
+    background: #fff;
+    padding: 10px;
+}
+.third-enter-dia-inner span {
+    display: block;
+    line-height: 1.5;
+    text-align: center;
+    padding-top: 6px;
+    width: 127px;
+}
+.weixin:hover .third-enter-dia{
+	display: block;
+}

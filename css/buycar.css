@@ -1,0 +1,62 @@
+.page-container {
+    min-width: 960px;
+    padding: 0 20px;
+    max-width: 1200px;
+    _width: 960px;
+    margin: 0 auto;
+    padding-top: 0;
+}
+.inner-wrap {
+    max-width: none;
+    overflow: hidden;
+    margin:0 auto;
+}
+.bread-crumbs {
+    padding: 15px 0;
+}
+.cart-title h1{
+	display: block;
+	font: 400 24px/1.5 Microsoft YaHei,STHeiti,sans-serif;
+    color: #666;
+}
+.cart-title i {
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: -3px;
+    height: 36px;
+    overflow: hidden;
+    vertical-align: middle;
+    line-height: 36px;
+    font-size: 26px;
+    font-family: iconfonts,sans-serif;
+}
+.cart-empty {
+    background-color: #fff;
+    border: none;
+    text-align: center;
+    padding: 80px 0 90px;
+    font-size: 14px;
+    color: #666;
+    line-height: 2;
+}
+.cart-empty .empty-tip {
+    display: inline-block;
+    text-align: left;
+}
+.empty-tip span{
+    font-weight: normal;
+    color: #8e6a55;
+    font-family: "微软雅黑";
+}
+.cart-empty a {
+    color: #0563c3;
+    text-decoration: underline;
+}
+.empty-tip .go {
+    width: 92px;
+    height: 30px;
+    background: url(../img/gocart.jpg) no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+}
+

@@ -1,0 +1,220 @@
+.container{
+	min-width: 960px;
+	padding: 0 20px;
+	max-width: 1200px;
+	margin:0 auto;
+}
+.inner-wrap{
+    max-width: none;
+    margin:0 auto;
+}
+.bread-crumbs{
+	padding: 15px 0;
+}
+.now{
+	color: #858585;
+    font-family: "微软雅黑";
+}
+.bread-crumbs a{
+	color:#604136;
+}
+.filter-container{
+	margin-bottom: 10px;
+}
+.filter-lists-container{
+    padding: 0;
+    font-family: "微软雅黑";
+    color: #8e6a55;
+}
+.filter-entries{
+	margin-bottom: 5px;
+    line-height: 20px;
+    border-bottom: none;
+}
+.filter-entries-label{
+    float: left;
+    margin-right: 3px;
+    width: 76px;
+    text-align: right;
+}
+.filter-entries-values{
+	margin-left: 80px;
+    margin-right: 50px;
+}
+.filter-item .handle {
+    color: #8e6a55;
+}
+span.filter-item {
+    margin: 0 13px 3px !important;
+}
+.filter-lists-container .active {
+    background-color: #491903;
+}
+.filter-lists-container .active .handle {
+    color: white;
+}
+.filter-item {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    white-space: nowrap;
+}
+.filter-item a{
+	text-decoration: none;
+}
+.filter-item a:hover{
+	color: #491903;
+}
+
+
+/*商品列表*/
+.gallery-show li.goods-item {
+    border-bottom: none;
+    padding-top: 0;
+    padding-bottom: 10px;
+}
+.goods-pic{
+	width:200px;
+	height:200px;
+	position: relative;
+    line-height: 98px;
+    border: 0 none;
+    overflow: hidden;
+    text-align: center;
+    font-family: Arial;
+    float: left;
+    margin-right: 10px;
+}
+.gallery-list .goods-action {
+    background-color: #f0f0f0;
+    padding: 48px 0;
+    width: 172px;
+    float: right;
+    margin-left: 10px;
+    margin-top: 0;
+}
+.action-view{
+	font-family: "微软雅黑";
+    font-weight: normal;
+    font-size: 13px;
+    width: 104px;
+    background: url(../img/21cakelist_29_icecream.png) no-repeat 26px 10px;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 68px;
+    border-bottom: solid 1px #fff;
+    border-top: solid 1px #fff;
+    color: #6e3311;
+}
+.gallery-list .btn span {
+    background: #f0f0f0!important;
+}
+.gallery-list .btn span span {
+    background-image: linear-gradient(#f0f0f0,#f0f0f0)!important;
+    padding: 0;
+    font-size: 15px;
+    height: auto;
+    line-height: 31px;
+}
+.action-view:hover{
+	text-decoration: none;
+	background:#e3e3e3 url(../img/21cakelist_29_icecream.png) no-repeat 26px 10px;
+}
+.gallery-list .btn-major:hover span {
+    background-image: linear-gradient(#e3e3e3, #e3e3e3) !important;
+}
+.action-addtocart{
+    font-family: "微软雅黑";
+    font-weight: normal;
+    font-size: 13px;
+    height: 40px;
+    width: 104px;
+    background: url(../img/21cakelist_32_icecream.png) no-repeat 26px 10px;
+    padding-top: 10px;
+    padding-left: 68px;
+    border-bottom: solid 1px #fff;
+    color: #6e3311;
+}
+.action-addtocart:hover{
+	text-decoration: none;
+	background:#e3e3e3 url(../img/21cakelist_32_icecream.png) no-repeat 26px 10px;
+}
+.goods-price{
+	width:180px;
+	float:right;
+	margin-top:10px;
+	color:#666;
+}
+.listgoodprice-21cake {
+    padding-top: 75px;
+}
+.color4919 {
+    color: #491903;
+}
+.listgoodprice-21cake .price {
+    color: #491903;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: normal;
+}
+.listgoodprice-21cake b {
+    font-family: "微软雅黑";
+    font-size: 12px;
+    color: #491903;
+    font-weight: normal;
+}
+.timeTooltip {
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    text-align: left;
+    margin-left: 2px;
+    cursor: pointer;
+}
+.timeTooltip:link {
+    text-decoration: none;
+    color: #8e6a55;
+}
+.goods-info{
+    padding-top: 40px;
+    margin-right: 440px;
+    margin-left: 230px;
+}
+.gallery-list .goods-item h3.goods-name {
+    font-family: "微软雅黑";
+    font-size: 16px;
+    color: #8e6a55;
+}
+.goods-item .goods-name {
+    font-weight: 400;
+    max-height: 46px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.goods-item .goods-name  a{
+	color: #8c6a55;
+}
+.gallery-list .goods-desc {
+    color: #8e6a55;
+}
+.goods-item .goods-name a:hover{
+	text-decoration: none;
+	color:#491903;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

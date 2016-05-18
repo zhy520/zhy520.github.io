@@ -1,0 +1,115 @@
+.page-container{
+	min-width: 960px;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.inner-wrap{
+	margin:0 auto;
+    max-width: none;
+    overflow: hidden;
+}
+.bread-crumbs{
+	padding: 15px 0;
+}
+.signin-page-wrap{
+    margin-bottom: 40px;
+}
+.signin{
+	padding-left: 160px;
+	border:none;
+	width:800px;
+	margin:0 auto;
+}
+.sign-title{
+    border: none;
+    padding-left: 150px;
+    height: 60px;
+    line-height: 60px;
+    color: #8d6a54;
+    background: url(../img/userbg.jpg) no-repeat 100px 4px;
+    margin-bottom: 10px;
+}
+.sign-title h2{
+	color: #8d6a54;
+    font: 400 24px/44px 'Microsoft Yahei';
+}
+.form-item{
+	height:auto;
+	padding: 0;
+	margin:0;
+	overflow: hidden;
+}
+.form-act{
+	position: relative;
+	margin-left: 0;
+}
+.input-top{
+	border-radius: 4px 4px 0 0;	
+}
+.x-input{
+	width:375px;
+	padding: 16px 0 16px 20px;
+	color:#8d6a54;
+	height:18px;
+	line-height: 18px;
+	outline: none;
+	position: relative;
+	border:solid 1px #eee;
+	font-size: 13px;
+}
+.auto-change{
+    position: absolute;
+    z-index: 10;
+    font-size: 12px;
+    left: 163px;
+    top:0;
+    cursor: pointer;
+}
+.auto-change-tips{
+    position: absolute;
+    z-index: 10;
+    font-size: 13px;
+    left: 240px;
+    top: 0;
+    padding-left: 0;
+    color: #70a4c1;
+}
+.input-center{
+	border-radius: 0;
+	border-top: solid 1px #fff;
+}
+input::-webkit-input-placeholder {
+    color:    #8d6a54;
+    opacity: .4;
+    
+}
+.dxyzm{
+	position: absolute;
+	right:10px;
+	top:0;
+	color: #70a4c1;
+	font-size: 13px;
+}
+.form-item3{
+	height: 30px;
+	padding-top: 10px;
+}
+.form-inner-mm a{
+    padding-left: 0;
+    color: #70a4c1;
+}
+.form-item-normal{
+	overflow: hidden;
+}
+.submit-register{
+	background: #491903;
+    width: 399px;
+    font-size: 18px;
+    line-height: 50px;
+    height: 52px;
+    text-align: center;
+    border: 0;
+    color: #fff;
+    white-space: pre;
+}

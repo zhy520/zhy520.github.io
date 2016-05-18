@@ -1,0 +1,41 @@
+.page-container{
+    min-width: 960px;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin:0 auto;
+}
+.content-area{
+	padding: 0;
+	max-width: 1200px;
+	min-height: 400px;
+}
+.ca-title{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+    padding: 38px 0 8px 0;
+}
+.order-find-tip {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+.td-u {
+    text-decoration: underline;
+    color: #8e6a55;
+}
+.td-u:hover{
+    color: #432818;
+}
+
+
+
+
+
+
+
+
+
+
+
+

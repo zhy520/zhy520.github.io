@@ -1,0 +1,11 @@
+.inner-wrap{
+	margin:0 auto;
+}
+.brand-cont{
+	width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+.brand-cont img{
+	float:left;
+}

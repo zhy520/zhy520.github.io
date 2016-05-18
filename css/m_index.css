@@ -1,0 +1,229 @@
+/*nav*/
+.fixed{
+    position: fixed;
+}
+.daohang{
+    top: 0;
+    left: 0;
+    background-color: #F7F7F7;
+    z-index: 10000;
+    height: 50px;
+    opacity: 0.96;
+}
+.home-nav{
+	display: none;
+	width:100%;
+	border-bottom: 1px solid #ccc;
+}
+.home-nav .new_list {
+    width: 20%;
+}
+.home-nav .new_list {
+    width: 20%;
+}
+.home-nav .item {
+    line-height: 23px;
+    text-align: center;
+    color: #96724a;
+    font-size: 12px;
+}
+.home-nav a {
+    display: block;
+    float: left;
+}
+.daohang .iconfont {
+    line-height: 24px;
+    display: block;
+    padding-top: 4px;
+    font-size: 30px;
+    height: 24px;
+}
+.daohang .iconfont img{
+	display: inline;
+	height:24px;
+}
+
+/*page*/
+.page{
+	width:100%;
+	max-width:640px;
+	margin:0 auto;
+	overflow: hidden;
+}
+#head{
+	height:44px;
+	width:100%;
+}
+#head h1{
+	padding:8px 0 0 10px;
+	float:left;
+}
+.m_logo img{
+	max-width: 79px;
+    vertical-align: top;
+}
+#head .local{
+    border-left: 1px solid #dfdfdf;
+    float: left;
+    height: 16px;
+    line-height: 16px;
+    margin: 15px 0 0 8px;
+    padding-left: 8px;
+}
+#head .sendTo{
+	float: left;
+    color: #a77746;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 14px;
+}
+#head .local .show_city_a {
+    background: url("../img/ico_local.png") no-repeat scroll 0 0;
+    background-size: 11px 14px;
+    color: #a77746;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 14px;
+    padding-left: 15px;
+    float: left;
+}
+/*main-banner*/
+.page .main-banner{
+	position: relative;
+    clear: both;
+}
+.page .swipe{
+	overflow: hidden;
+	position: relative;
+	width:100%;
+	z-index: 500;
+}
+.page .swipe .swipe-wrap{
+	overflow: hidden;
+	position: relative;
+}
+.page .swipe-wrap img{
+	width:100%;
+}
+.full-screen{
+    max-width: 640px;
+    margin: 0 auto;
+}
+.home-nav1{
+	width: 100%;
+    height: 63px;
+    border-bottom: 1px solid #ccc;
+}
+.home-nav1 .item {
+    line-height: 23px;
+    text-align: center;
+    color: #96724a;
+    font-size: 12px;
+    display: bloxk;
+    width:25%;
+    float:left;
+}
+.home-nav1 .iconfont {
+    line-height: 24px;
+    display: block;
+    padding-top: 4px;
+    font-size: 30px;
+    height:30px;
+}
+.home-nav1 .iconfont img{
+	display: inline;
+	height:24px;
+}
+.home-hot .panel {
+    padding: 15px 0;
+}
+.home-hot .pt-item{
+    float: left;
+    width: 50%;
+}
+.home-hot .pt-img {
+    overflow: hidden;
+    text-align: center;
+    margin: 0 7px 0 13px;
+}
+.home-hot .pt-img img {
+    max-width: 143px;
+    max-height: 143px;
+    vertical-align: middle;
+}
+.home-hot .price, .home-hot .pt-name {
+    font-size: 13px;
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    text-align: center;
+    color: #a77746;
+}
+.pt-name {
+    font-weight: normal;
+    margin: 0 10px;
+    padding-bottom: 4px;
+}
+
+.home-to-top{
+	position: relative;
+	padding: 10px 13px;
+	background-color:#F5F5F5;
+}
+.home-to-top .to-top {
+    position: absolute;
+    right: 10px;
+    color: #a77746;
+}
+#footerlogin{
+	color:#dfdfdf;
+	font-size:12px;
+}
+#footerlogin .lnk {
+    color: #74a7c6;
+    font-size: 12px;
+    margin: 0 5px;
+}
+/*footer*/
+.footer {
+    padding: 10px;
+    text-align: center;
+    color: #999;
+}
+.contact-us .info {
+    color: #dfdfdf;
+    text-align: center;
+}
+.footer p {
+    margin-top: 10px;
+}
+.contact-us .info em {
+    color: #a77746;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 15px;
+    margin: 3px 0 0 5px;
+    vertical-align: top;
+}
+.contact-us .info span {
+    color: #a77746;
+    display: inline-block;
+    font-family: "Baskerville Old Face";
+    font-size: 12px;
+    line-height: 15px;
+    margin: 3px 5px 0 0;
+    vertical-align: top;
+}
+.contact-us .info span:last-child {
+    margin-right: 0;
+}
+.contact-us .copyright {
+    color: #c6a37c;
+    font-size: 9px;
+    margin-top: 9px;
+    text-align: center;
+}
+.contact-us {
+    padding: 13px 0 27px;
+}
